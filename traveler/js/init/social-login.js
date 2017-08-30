@@ -1,0 +1,1 @@
+window.fbAsyncInit=function(){FB.init({appId:'{your-app-id}',cookie:!0,xfbml:!0,version:'v2.1'});FB.getLoginStatus(function(response){statusChangeCallback(response)})}
